@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './Navbar';
 import Counter from './Counter';
 import Grid from './Grid';
+import PasswordGenerator from './PasswordGenerator'
 
 
 
@@ -12,6 +13,7 @@ function App() {
           <Navbar/>
           <Counter/>
           <Grid/>
+          <PasswordGenerator/>
     </div>
   );
 }
