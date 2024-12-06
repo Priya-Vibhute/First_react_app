@@ -4,6 +4,9 @@ import Navbar from './Navbar';
 import Counter from './Counter';
 import Grid from './Grid';
 import PasswordGenerator from './PasswordGenerator'
+import AreaOfCircle from './AreaOfCircle';
+import AreaOfRectangle from './AreaOfRectangle';
+import CurrencyConverter from './currencyConverter';
 
 
 
@@ -14,6 +17,9 @@ function App() {
           <Counter/>
           <Grid/>
           <PasswordGenerator/>
+          <AreaOfCircle/>
+          <AreaOfRectangle/>
+          <CurrencyConverter/>
     </div>
   );
 }
